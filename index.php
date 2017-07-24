@@ -2,6 +2,7 @@
 include "db.php";
 $sql = "SELECT * FROM Members ORDER BY _id DESC";
 $result = $conn->query($sql);
+echo "It works until result";
 if ($result->num_rows > 0) {
     // output data of each row
      $data = array() ;
