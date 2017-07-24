@@ -5,7 +5,8 @@ $result = $conn->query($sql);
 echo "It works until result";
 if ($result->num_rows > 0) {
     // output data of each row
-     $data = array() ;
+    $data = array();
+    echo "The result count in bigger than 0";
     while($row = $result->fetch_assoc()) {
         $data[] = $row;
     }
