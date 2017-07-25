@@ -1,3 +1,3 @@
 <?php
-echo "php web server REST api"
+echo "php web service"
 ?>
